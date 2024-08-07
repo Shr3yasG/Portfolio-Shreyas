@@ -40,17 +40,17 @@ export const PROJECTS = [
     description:
       "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
     image: projectImage1,
-    githubLink: "https://github.com/user/personal-portfolio",
-    liveDemoLink: "https://personal-portfolio.example.com",
+    githubLink: "https://github.com/Shr3yasG/Portfolio-Shreyas",
+    liveDemoLink: "https://portfolio-shreyas-vert.vercel.app",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Password Generator",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "A password generator application built with React that allows users to create secure and random passwords based on selected criteria.",
     image: projectImage2,
-    githubLink: "https://github.com/user/ecommerce-platform",
-    liveDemoLink: "https://ecommerce-platform.example.com",
+    githubLink: "https://github.com/Shr3yasG/PasswordGenerator",
+    liveDemoLink: "https://password-generator-orpin-rho.vercel.app",
   },
   {
     id: 3,
