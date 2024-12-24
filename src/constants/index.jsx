@@ -1,8 +1,4 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
@@ -63,13 +59,14 @@ export const PROJECTS = [
   },
   {
     id: 4,
-    name: "Giphy App",
+    name: "Trimrr",
     description:
-      "A Giphy search application that allows users to search for and view GIFs from the Giphy API. Built with React and styled-components for a modern and responsive user interface.",
+      "Trimrr is a URL shortener application that allows users to shorten long URLs, making them easier to share and manage. Built using React.js, Tailwind CSS, Supabase, and Shadcn UI, it offers a modern and responsive user interface for seamless interaction.",
     image: projectImage4,
-    githubLink: "https://github.com/Shr3yasG/GiphyClone",
-    liveDemoLink: "https://giphy-clone-ten.vercel.app",
+    githubLink: "https://github.com/Shr3yasG/Trimrr",
+    liveDemoLink: "https://trimrr-two.vercel.app",
   },
+
   {
     id: 5,
     name: "Muscle Morph",
@@ -77,37 +74,34 @@ export const PROJECTS = [
       "A fitness application designed to track and analyze workout routines and progress. Built with React and Tailwind CSS, featuring various workout and exercise data management functionalities.",
     image: projectImage5,
     githubLink: "https://github.com/Shr3yasG/Muscle-Morph",
-    liveDemoLink: "https://vercel.com/shr3yasgs-projects/muscle-morph",
+    liveDemoLink: "https://muscle-morph.vercel.app",
   },
   {
     id: 6,
-    name: "Weather App",
-    description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
-    image: projectImage4,
-    githubLink: "https://github.com/Shr3yasG/Weather-app",
-    liveDemoLink: "https://weather-app-orpin-alpha-67.vercel.app",
+    name: "Pokedex",
+    description: "A Pokedex application showcasing Pokémon data and details.",
+    image: projectImage6,
+    githubLink: "https://github.com/Shr3yasG/Pokedex",
+    liveDemoLink: "https://pokedex-tau-three.vercel.app",
   },
 ];
 
-
 export const BIO = [
-  "Shreyas Gawade is a dedicated React Developer with a strong background in frontend development. With expertise in React.js and a commitment to delivering high-quality, user-centric web applications, Shreyas has honed his skills through hands-on experience and continuous learning.",
+  "I am a dedicated React Developer with a strong background in frontend development. With expertise in React.js and a commitment to delivering high-quality, user-centric web applications, Shreyas has honed his skills through hands-on experience and continuous learning.",
   "In 2024, Shreyas embarked on a journey to further enhance his technical expertise by actively exploring and upgrading his skills in backend services. This dedication reflects his commitment to providing comprehensive and innovative solutions in the ever-evolving tech landscape.",
-  "As a passionate and hardworking professional, Shreyas Gawade excels in creating dynamic, responsive web experiences using modern technologies such as React.js, Redux, and Tailwind CSS. His proactive approach to learning and consistent work ethic drive him to achieve excellence and deliver exceptional results in every project he undertakes."
+  "As a passionate and hardworking professional, Shreyas Gawade excels in creating dynamic, responsive web experiences using modern technologies such as React.js, Redux, and Tailwind CSS. His proactive approach to learning and consistent work ethic drive him to achieve excellence and deliver exceptional results in every project he undertakes.",
 ];
-
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React.js",
-    experience: "0.8+ years",
+    experience: "1.5+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "0.6+ years",
+    experience: "1+ years",
   },
   {
     icon: <SiJavascript className="text-4xl text-yellow-500 lg:text-5xl" />,
@@ -136,16 +130,17 @@ export const EDUCATION = [
     degree: "Bachelor of Engineering in Computer Science",
     institution: "Dholepatil College of Engineering, Pune",
     duration: "2019 - 2023",
-    description: "Graduated with a CGPA of 6.9. Focused on software development, algorithms, and data structures. Worked on various personal projects involving web and application development using modern technologies.",
+    description:
+      "Graduated with a CGPA of 6.9. Focused on software development, algorithms, and data structures. Worked on various personal projects involving web and application development using modern technologies.",
   },
   {
     degree: "Higher Secondary Certificate (HSC)",
     institution: "Sanjay Ghodawat IIT & Medical Academy, Kolhapur",
     duration: "2017 - 2019",
-    description: "Completed HSC Boards with a percentage of 60.92%. Studied core subjects relevant to engineering and technology, laying the foundation for advanced studies in computer science.",
+    description:
+      "Completed HSC Boards with a percentage of 60.92%. Studied core subjects relevant to engineering and technology, laying the foundation for advanced studies in computer science.",
   },
 ];
-
 
 export const SOCIAL_MEDIA_LINKS = [
   {
